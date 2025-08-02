@@ -1,0 +1,53 @@
+.referral-container {
+  background-color: #f2f5fc;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.referral-box {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px dashed #0066ff;
+  border-radius: 10px;
+}
+
+.referral-box code {
+  font-size: 20px;
+  color: #007bff;
+  background: #eaf0ff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.referral-box button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.referral-box button:hover {
+  background-color: #005ad5;
+}
+
+.referral-rewards ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.referral-rewards li {
+  margin: 10px 0;
+  font-size: 16px;
+}
